@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="chat-box-container">
+      <div class="chat-section">
+        <div class="contact-section">
+          <div class="search-section">
+            <h3>Filter by Title / Order ID</h3>
+            <input
+              type="text"
+              class="contact-search-input-box"
+              placeholder="Start typing to search"
+              value=""
+            />
+          </div>
+          <div class="scrollable-contact"></div>
+        </div>
+        <div class="message-section">
+          <div class="messge-section-title">
+            <img src="" alt="" id="message-section-title-image" />
+            <h3 id="message-section-title-text"></h3>
+          </div>
+          <div class="message-section-main-content">
+            <input
+              type="text"
+              class="message-input"
+              placeholder="Type a Message..."
+            />
+            <i class="material-icons" id="message-click">&#xe163;</i>
+            <div class="scrollable-message"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loader">Loading...</div>
+    <script src="index.js"></script>
+  </body>
+</html>
